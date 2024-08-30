@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "name": "Ăn uống",
+            "tasks": ["Ăn sáng", "Uống cà phê"]
+        },
+        {
+            "name": "Đi chơi",
+            "tasks": ["Đi công viên", "Xem phim"]
+        },
+        {
+            "name": "Chụp ảnh",
+            "tasks": ["Chụp ảnh hoàng hôn"]
+        }
+    ]
+}
