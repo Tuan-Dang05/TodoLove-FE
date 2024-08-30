@@ -1,6 +1,6 @@
 
 import './App.css'
-import TodoLayout from './layouts/todoLayout'
+import TodoLayout from './layouts/TodoLayout'
 
 function App() {
   return (
