@@ -61,7 +61,7 @@ const TodoItem = ({ tasks, setTasks }) => {
         try {
             await updateTodo(taskToUpdate._id, editedTask);
             setIsEditingIndex(null);
-            toast.success("Task updated successfully");
+            toast.success("Cập nhật thành công!");
         } catch (error) {
     
             setTasks(currentTasks => 
@@ -82,7 +82,7 @@ const TodoItem = ({ tasks, setTasks }) => {
 
         try {
             await deleteTodo(id);
-            toast.success("Task deleted successfully");
+            toast.success("Xoá thành công!");
         } catch (error) {
          
             const taskToRestore = tasks.find(task => task._id === id);

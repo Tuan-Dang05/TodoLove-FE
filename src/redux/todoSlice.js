@@ -4,7 +4,7 @@ import axios from 'axios';
 
 // Thunk to fetch todos from API
 export const fetchTodos = createAsyncThunk('todos/fetchTodos', async () => {
-    const response = await axios.get('http://localhost:5000/api/todos/all');
+    const response = await axios.get(`${import.meta.env.VITE_API_BASE_URL}/todos/all`);
     return response.data;
 });
 
